@@ -2,8 +2,24 @@
 name = "broxus_api_client"
 version = "0.1.0"
 description = "Set of API clients for Broxus APIs in Everscale"
-authors = ["Your Name <you@example.com>"]
+authors = ["MIREX <lifincevkirill@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/MIREX/broxus_api_client"
+repository = "https://github.com/MIREX/broxus_api_client"
+packages = [
+    { include = "broxus_api_client" },
+]
+include = [
+    "README.md",
+]
+classifiers = [
+    "Framework :: AsyncIO",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
